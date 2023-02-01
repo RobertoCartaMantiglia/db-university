@@ -1,0 +1,4 @@
+milestone 1
+
+160 del totale:
+SELECT * FROM `students` WHERE `date_of_birth` like '1990%'; 
