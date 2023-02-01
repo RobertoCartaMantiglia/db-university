@@ -13,3 +13,7 @@ SELECT * FROM `students` WHERE `date_of_birth` < '1993-01-01';
 MILESTONE4
 (286 del totale)
 SELECT * FROM `courses` WHERE `year`LIKE '1%' AND `period` LIKE 'I semestre%'; 
+
+MILESTONE5
+(21 del totale)
+SELECT * FROM `exams` WHERE `hour`> '14:00' AND `date`= '2020-06-20'; 
