@@ -9,3 +9,7 @@ COUNT(*) 	anno_iscrizione
   1709 	        2019
   1645 	        2020
   734 	        2021
+
+
+  2. Contare gli insegnanti che hanno l'ufficio nello stesso edificio
+  SELECT count(`id`), `office_address` AS `ufficio` FROM `teachers` GROUP BY `ufficio`; 
